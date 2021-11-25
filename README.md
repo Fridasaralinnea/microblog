@@ -1,4 +1,4 @@
-[![Build Status](https://circleci.com/github/Fridasaralinnea/microblog.svg?style=svg)](https://app.circleci.com/pipelines/gh/Fridasaralinnea/microblog)
+[![CircleCI](https://circleci.com/gh/Fridasaralinnea/microblog/tree/master.svg?style=svg)](https://circleci.com/gh/Fridasaralinnea/microblog/tree/master)
 
 Microblog
 ===================
