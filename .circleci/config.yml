@@ -43,4 +43,5 @@ jobs:
           name: Run tests
           command: |
             . venv/bin/activate
-            make test
+            make test --exclude=venv* --statistics
+            pytest -v --cov=calculator
