@@ -1,4 +1,4 @@
-[![fridasaralinnea](https://circleci.com/gh/fridasaralinnea/microblog.svg?style=svg)](https://app.circleci.com/pipelines/github/Fridasaralinnea/microblog)
+[![Fridasaralinnea](https://circleci.com/github/Fridasaralinnea/microblog.svg?style=svg)](https://app.circleci.com/pipelines/github/Fridasaralinnea/microblog)
 
 Microblog
 ===================
