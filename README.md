@@ -1,3 +1,5 @@
+[![fridasaralinnea](https://circleci.com/gh/fridasaralinnea/microblog.svg?style=svg)](https://app.circleci.com/pipelines/github/Fridasaralinnea/microblog)
+
 Microblog
 ===================
 
@@ -28,7 +30,7 @@ source venv/bin/activate
 make install-dev
 ```
 
-If you are on Windows and Cygwin you will probably have troubles installing the pip package `cryptography`. Common errors are missing `python.h`, `gcc`, `cffi` and `openssl`. 
+If you are on Windows and Cygwin you will probably have troubles installing the pip package `cryptography`. Common errors are missing `python.h`, `gcc`, `cffi` and `openssl`.
 
 
 ### Database
