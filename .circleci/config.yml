@@ -24,5 +24,9 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            make test
+            python3 -m coverage run --rcfile=.coveragerc
+            python3 -m py.test -c pytest.ini tests/unit
+            python3 -m coverage run --rcfile=.coveragerc
+            python3 -m py.test -c pytest.ini tests/integration
+           # make test
 
