@@ -25,17 +25,8 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            @pylint --rcfile=.pylintrc app tests
-            find . -name '*.pyc' -exec rm -f {} +
-            find . -name '*.pyo' -exec rm -f {} +
-            find . -name '__pycache__' -exec rm -fr {} +
-            find . -name '.pytest_cache' -exec rm -fr {} +
             python3 -m coverage run --rcfile=.coveragerc
             python3 -m py.test -c pytest.ini tests/integration
-            find . -name '*.pyc' -exec rm -f {} +
-            find . -name '*.pyo' -exec rm -f {} +
-            find . -name '__pycache__' -exec rm -fr {} +
-            find . -name '.pytest_cache' -exec rm -fr {} +
             python3 -m coverage run --rcfile=.coveragerc
             python3 -m py.test -c pytest.ini tests/unit
             find . -name '*.pyc' -exec rm -f {} +
