@@ -103,7 +103,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Acknowledgement
 -------------------
 
-This is a co-effort of several people using freely available documentation and tools from the open source community.
+This is a co-effort of several people using freely available documentation and tools from the open source community..
 
 For contributors, see commit history and issues.
 
